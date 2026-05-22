@@ -1,4 +1,5 @@
-# Outlook-Auto-Categorizer
+# Outlook Auto Categorizer
+
 A Python-based Outlook inbox automation tool that automatically categorizes and routes emails into organized folders using custom business logic.
 Built using Python + Outlook COM automation (`pywin32`) for enterprise productivity workflows.
 
@@ -39,61 +40,60 @@ Inbox
 ├── Dayforce
 ├── Important
 └── Other
-
-⸻
-
-##Requirements
-Windows
-Microsoft Outlook Desktop App
-Python 3.x
-Python library:
+```
+---
+# Requirements
+- Windows
+- Microsoft Outlook Desktop App
+- Python 3.x
+Install required library:
+```bash
 pip install pywin32
-
-⸻
-
-**Installation**
+```
+---
+# Installation
 Clone the repository:
+```bash
 git clone https://github.com/yourusername/outlook-auto-categorizer.git
+```
 Navigate into the project folder:
+```bash
 cd outlook-email-categorizer
+```
 Install dependencies:
+```bash
 pip install pywin32
+```
 Run the script:
+```bash
 python categorizeemails.py
-
-⸻
-
-**How It Works**
+```
+---
+# How It Works
 The script:
-Connects to Outlook using COM automation
-Reads emails from the Inbox
-Applies prioritization rules
-Assigns Outlook categories
-Moves emails into matching folders
+1. Connects to Outlook using COM automation
+2. Reads emails from the Inbox
+3. Applies prioritization rules
+4. Assigns Outlook categories
+5. Moves emails into matching folders
 Only emails still located in the Inbox are processed.
-
-⸻
-
-**Priority Order**
+---
+# Priority Order
 The categorization logic uses priority ordering:
-Department
-Company News
-Teams Messages
-Cases
-Dayforce
-Important
-Other
+1. Department
+2. Company News
+3. Teams Messages
+4. Cases
+5. Dayforce
+6. Important
+7. Other
 This ensures high-priority operational emails are categorized correctly first.
-
-⸻
-
-**Technologies Used**
-Python
-pywin32
-Outlook COM Automation
-
-⸻
-
-**Disclaimer**
+---
+# Technologies Used
+- Python
+- pywin32
+- Outlook COM Automation
+---
+# Disclaimer
 This project was created for educational and productivity purposes.
 Use responsibly within your organization’s IT and security policies.
