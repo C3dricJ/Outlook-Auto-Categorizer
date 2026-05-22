@@ -1,9 +1,9 @@
 # Outlook-Auto-Categorizer
-
 A Python-based Outlook inbox automation tool that automatically categorizes and routes emails into organized folders using custom business logic.
 Built using Python + Outlook COM automation (`pywin32`) for enterprise productivity workflows.
 
 <img width="1084" height="748" alt="emailscript" src="https://github.com/user-attachments/assets/ec353c84-a904-4cdb-8e10-884b39b3d577" />
+
 ---
 # Features
 - Automatically categorizes Outlook emails
