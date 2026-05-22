@@ -42,7 +42,7 @@ Inbox
 
 ⸻
 
-**Requirements**
+##Requirements
 Windows
 Microsoft Outlook Desktop App
 Python 3.x
