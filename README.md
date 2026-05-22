@@ -42,7 +42,7 @@ Inbox
 
 ⸻
 
-Requirements
+# Requirements
 Windows
 Microsoft Outlook Desktop App
 Python 3.x
@@ -51,7 +51,7 @@ pip install pywin32
 
 ⸻
 
-Installation
+# Installation
 Clone the repository:
 git clone https://github.com/yourusername/outlook-auto-categorizer.git
 Navigate into the project folder:
@@ -63,7 +63,7 @@ python categorizeemails.py
 
 ⸻
 
-How It Works
+# How It Works
 The script:
 Connects to Outlook using COM automation
 Reads emails from the Inbox
@@ -74,7 +74,7 @@ Only emails still located in the Inbox are processed.
 
 ⸻
 
-Priority Order
+# Priority Order
 The categorization logic uses priority ordering:
 Department
 Company News
@@ -87,7 +87,7 @@ This ensures high-priority operational emails are categorized correctly first.
 
 ⸻
 
-Technologies Used
+# Technologies Used
 Python
 pywin32
 Outlook COM Automation
